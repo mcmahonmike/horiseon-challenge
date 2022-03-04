@@ -73,7 +73,9 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    padding: 50px 20px;
+    position: relative;
+    top: 825px;
+
 }
 
 .benefits {
@@ -85,9 +87,8 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    position: relative;
-    bottom: 825px;
-    text-align: center;
+    position: static;
+    
 
     
 }
